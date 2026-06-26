@@ -1,0 +1,6 @@
+project: svgpathtools
+target: path-fuzz
+cmds:
+  - cmd: /mayhem/fuzz_parser
+    libfuzzer: true
+    timeout: 60
